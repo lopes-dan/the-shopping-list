@@ -1,0 +1,17 @@
+.btn-panel {
+    display: flex;
+    float: right;
+    margin-bottom: 12px;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .btn-panel {
+      flex-direction: column-reverse;
+      justify-content: space-between;
+    }
+  }
+  
+  .form-remove {
+    display: flex;
+  }
+  

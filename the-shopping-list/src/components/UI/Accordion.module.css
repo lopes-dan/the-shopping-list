@@ -1,0 +1,46 @@
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+  
+    width: 100%;
+    min-width: 34px;
+  
+    border: none;
+    border-bottom: 1px solid pink;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    margin: auto;
+    cursor: pointer;
+    padding-top: 32px;
+    font-family: sans-serif;
+  }
+  
+  .displayPanel {
+    display: block;
+    transition: ;
+  }
+  .hidePanel {
+    display: block;
+    transition: 0.4s;
+    transition: 10s;
+  }
+  
+  .active,
+  .accordion:hover {
+    background: #ff66cc;
+    border: 7px solid red;
+    border-radius: 12px;
+    color: white;
+  }
+  

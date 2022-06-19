@@ -1,0 +1,36 @@
+.btn-text {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .add-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    width: 252px;
+  }
+  
+  .btn-add {
+    width: 100%;
+  
+    height: 47px;
+    border-radius: 12px;
+    display: cursor;
+    position: relative;
+    bottom: 3px;
+    font-size: 22px;
+    margin-top: 17px;
+  }
+  .add-product {
+    min-width: 225px;
+    max-width: 424px;
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    border: 0;
+    box-shadow: 0 0 15px 1px #ff66cc;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  

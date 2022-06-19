@@ -1,0 +1,13 @@
+.product-item {
+    border-bottom: 3px solid pink;
+    margin-bottom: 20px;
+    font-size: 23px;
+  
+    min-width: 323px;
+    min-width: 324px;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+  }
+  

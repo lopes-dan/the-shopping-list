@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import Accordion from "./components/UI/Accordion";
+import * as React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeart } from "@fortawesome/free-solid-svg-icons";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header className="title-header">
+        <h2> Kah's List</h2>
+        <FontAwesomeIcon className="heart" icon={faHeart} />
       </header>
-    </div>
+      <Accordion />
+    </>
   );
 }
-
-export default App;
